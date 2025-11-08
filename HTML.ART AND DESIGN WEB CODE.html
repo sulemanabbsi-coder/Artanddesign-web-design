@@ -1,0 +1,682 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Department of Art &amp; Design – AJKU
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&amp;family=Roboto&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Roboto', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Poppins', sans-serif;
+    }
+    /* Scroll behavior smooth */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-gray-900 antialiased">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white shadow-md">
+   <nav aria-label="Primary Navigation" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+    <a class="flex items-center space-x-3" href="#home">
+     <img alt="University of Azad Jammu & Kashmir official logo, stylized emblem with academic and artistic motifs in indigo and deep maroon colors" class="h-22 w-22 object-contain" height="68" src="https://i.imghippo.com/files/Jgsj1298IUs.jpg" width="68"/>
+    </a>
+    <button aria-expanded="false" aria-label="Toggle navigation menu" class="sm:hidden text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-600" id="nav-toggle">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+    <ul class="hidden sm:flex space-x-8 text-indigo-900 font-semibold text-sm sm:text-base" id="nav-menu" role="menubar">
+     <li role="none">
+      <a class="hover:text-deep-maroon focus:outline-none focus:text-deep-maroon transition-colors" href="#home" role="menuitem">
+       Home
+      </a>
+     </li>
+     <li role="none">
+      <a class="hover:text-deep-maroon focus:outline-none focus:text-deep-maroon transition-colors" href="#about" role="menuitem">
+       About
+      </a>
+     </li>
+     <li role="none">
+      <a class="hover:text-deep-maroon focus:outline-none focus:text-deep-maroon transition-colors" href="#hod-message" role="menuitem">
+       HOD Message
+      </a>
+     </li>
+     <li role="none">
+      <a class="hover:text-deep-maroon focus:outline-none focus:text-deep-maroon transition-colors" href="#majors" role="menuitem">
+       Majors
+      </a>
+     </li>
+     <li role="none">
+      <a class="hover:text-deep-maroon focus:outline-none focus:text-deep-maroon transition-colors" href="#facilities" role="menuitem">
+       Facilities
+      </a>
+     </li>
+     <li role="none">
+      <a class="hover:text-deep-maroon focus:outline-none focus:text-deep-maroon transition-colors" href="#faculty" role="menuitem">
+       Faculty
+      </a>
+     </li>
+     <li role="none">
+      <a class="hover:text-deep-maroon focus:outline-none focus:text-deep-maroon transition-colors" href="#collaborations" role="menuitem">
+       Collaborations
+      </a>
+     </li>
+     <li role="none">
+      <a class="hover:text-deep-maroon focus:outline-none focus:text-deep-maroon transition-colors" href="#contact" role="menuitem">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <!-- Mobile menu -->
+   <div aria-label="Mobile Navigation" class="sm:hidden hidden bg-white border-t border-indigo-200" id="mobile-menu" role="menu">
+    <ul class="flex flex-col space-y-2 p-4 text-indigo-900 font-semibold text-base">
+     <li role="none">
+      <a class="block px-2 py-2 rounded hover:bg-indigo-100 focus:outline-none focus:bg-indigo-200" href="#home" role="menuitem">
+       Home
+      </a>
+     </li>
+     <li role="none">
+      <a class="block px-2 py-2 rounded hover:bg-indigo-100 focus:outline-none focus:bg-indigo-200" href="#about" role="menuitem">
+       About
+      </a>
+     </li>
+     <li role="none">
+      <a class="block px-2 py-2 rounded hover:bg-indigo-100 focus:outline-none focus:bg-indigo-200" href="#hod-message" role="menuitem">
+       HOD Message
+      </a>
+     </li>
+     <li role="none">
+      <a class="block px-2 py-2 rounded hover:bg-indigo-100 focus:outline-none focus:bg-indigo-200" href="#majors" role="menuitem">
+       Majors
+      </a>
+     </li>
+     <li role="none">
+      <a class="block px-2 py-2 rounded hover:bg-indigo-100 focus:outline-none focus:bg-indigo-200" href="#facilities" role="menuitem">
+       Facilities
+      </a>
+     </li>
+     <li role="none">
+      <a class="block px-2 py-2 rounded hover:bg-indigo-100 focus:outline-none focus:bg-indigo-200" href="#faculty" role="menuitem">
+       Faculty
+      </a>
+     </li>
+     <li role="none">
+      <a class="block px-2 py-2 rounded hover:bg-indigo-100 focus:outline-none focus:bg-indigo-200" href="#collaborations" role="menuitem">
+       Collaborations
+      </a>
+     </li>
+     <li role="none">
+      <a class="block px-2 py-2 rounded hover:bg-indigo-100 focus:outline-none focus:bg-indigo-200" href="#contact" role="menuitem">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </div>
+  </header>
+  <!-- Hero Section -->
+  <section aria-label="Welcome banner with slideshow of artworks" class="relative overflow-hidden" id="home">
+   <div class="relative h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px]">
+    <img alt="Abstract colorful artwork with vibrant brush strokes in indigo and deep maroon hues, representing creativity and artistic expression" class="absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity duration-1000" height="700" id="slide-1" src="https://storage.googleapis.com/a1aa/image/1a8aaffe-bdd4-4484-b595-4dbd1b0f2c2e.jpg" width="1200"/>
+    <img alt="Intricate textile pattern artwork with traditional motifs in deep maroon and indigo colors, symbolizing cultural heritage and design" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000" height="700" id="slide-2" src="https://storage.googleapis.com/a1aa/image/db0aa7d6-2aed-46e4-061d-7bbb99d47143.jpg" width="1200"/>
+    <img alt="Modern painting artwork featuring bold shapes and colors in indigo and maroon, showcasing contemporary art styles" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000" height="700" id="slide-3" src="https://storage.googleapis.com/a1aa/image/eae9fb1b-fa43-49d2-71f9-d0beee40d5fd.jpg" width="1200"/>
+    <div class="absolute inset-0 bg-gradient-to-b from-indigo-900/70 via-indigo-900/50 to-indigo-900/70 flex flex-col justify-center items-center text-center px-4">
+     <h1 class="text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl max-w-4xl leading-tight drop-shadow-lg">
+      Welcome to the Department of Art &amp; Design – AJKU
+     </h1>
+     <p class="mt-4 text-indigo-200 text-lg sm:text-xl md:text-2xl max-w-3xl drop-shadow-md">
+      Where Creativity Meets Legacy
+     </p>
+     <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a class="bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-400 text-white font-semibold py-3 px-6 rounded shadow-md transition" href="#contact">
+       Apply Now
+      </a>
+      <a class="bg-deep-maroon hover:bg-[#5a1a1a] focus:ring-4 focus:ring-[#7b2a2a] text-white font-semibold py-3 px-6 rounded shadow-md transition" download="AJKU_Art_Design_Prospectus.pdf" href="https://ajku.edu.pk/art-and-design/">
+       Download Prospectus
+      </a>
+      <a class="bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 text-white font-semibold py-3 px-6 rounded shadow-md transition" href="#student-portfolio">
+       View Student Work
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- About Section -->
+  <section aria-labelledby="about-title" class="max-w-7xl mx-auto px-6 sm:px-8 py-16 scroll-mt-20" id="about">
+   <h2 class="text-indigo-900 font-bold text-3xl sm:text-4xl mb-8 text-center" id="about-title">
+    About the Department
+   </h2>
+   <div class="max-w-4xl mx-auto text-center text-gray-800 space-y-6 text-base sm:text-lg leading-relaxed">
+    <p>
+     Established in 1982 as a Women’s Textile College, the Department of Art
+        &amp; Design at University of Azad Jammu &amp; Kashmir has grown into a vibrant
+        hub of creativity and culture.
+    </p>
+    <p>
+     In 2005, the department expanded to offer a comprehensive Bachelor of
+        Fine Arts (BFA) program, featuring 8-semester degree courses in Graphic
+        Design, Textile Design, and Painting.
+    </p>
+    <p>
+     Our focus is a harmonious blend of tradition and modern practices,
+        empowering students to innovate while preserving cultural heritage.
+    </p>
+    <p class="font-semibold italic text-indigo-900">
+     Mission: Empowering students to inspire change, preserve culture, and
+        innovate for the future.
+    </p>
+   </div>
+  </section>
+  <!-- Head of Department’s Message -->
+  <section aria-labelledby="hod-title" class="bg-indigo-50 py-16 px-6 sm:px-8" id="hod-message">
+   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-16">
+    <div class="flex-shrink-0 w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-indigo-900 shadow-lg">
+     <img alt="Formal portrait of Dr. Rukhsana Syed Muhammad, Head of Department of Art &amp; Design, wearing professional attire with a warm and confident expression" class="w-full h-full object-cover" height="224" src="https://i.imghippo.com/files/MTSG3080src.jpg" width="224"/>
+    </div>
+    <div class="max-w-3xl text-indigo-900">
+     <h2 class="text-3xl font-bold mb-4" id="hod-title">
+      Message from the Head of Department
+     </h2>
+     <h3 class="text-xl font-semibold mb-6">
+      Dr. Rukhsana Syed Muhammad
+     </h3>
+     <p class="text-lg leading-relaxed">
+      At the Department of Art &amp; Design, our vision is to nurture creativity
+          that honors cultural preservation while empowering the next generation
+          of artists and designers. We believe in fostering an environment where
+          tradition meets innovation, and where every student is inspired to
+          contribute meaningfully to the legacy of art and design in our region
+          and beyond.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Majors Section -->
+  <section aria-labelledby="majors-title" class="max-w-7xl mx-auto px-6 sm:px-8 py-16 scroll-mt-20" id="majors">
+   <h2 class="text-indigo-900 font-bold text-3xl sm:text-4xl mb-12 text-center" id="majors-title">
+    Our Majors
+   </h2>
+   <div class="grid gap-12 md:grid-cols-3 max-w-6xl mx-auto">
+    <!-- Graphic Design -->
+    <article aria-labelledby="graphic-title" class="border border-indigo-300 rounded-lg p-6 shadow hover:shadow-lg transition">
+     <h3 class="text-indigo-900 font-bold text-2xl mb-4 text-center" id="graphic-title">
+      Graphic Design
+     </h3>
+     <img alt="Graphic design artwork showing typography, branding elements, and digital tools interface in indigo and maroon color scheme" class="w-full h-48 object-cover rounded mb-4" height="250" src="https://i.imghippo.com/files/iCs2149zBk.png" width="400"/>
+     <p class="text-gray-700 leading-relaxed">
+      Focus on visual communication, typography, publishing, branding, and
+          digital tools to prepare students for dynamic careers in design.
+     </p>
+    </article>
+    <!-- Textile Design -->
+    <article aria-labelledby="textile-title" class="border border-indigo-300 rounded-lg p-6 shadow hover:shadow-lg transition">
+     <h3 class="text-indigo-900 font-bold text-2xl mb-4 text-center" id="textile-title">
+      Textile Design
+     </h3>
+     <img alt="Textile design artwork featuring surface pattern design, weaving textures, and fabric printing in deep maroon and indigo colors" class="w-full h-48 object-cover rounded mb-4" height="250" src="https://i.imghippo.com/files/DIup5884se.jpg" width="400"/>
+     <p class="text-gray-700 leading-relaxed">
+      Explore surface pattern design, weaving, textile printing, and fabric
+          technology to innovate in the textile industry.
+     </p>
+    </article>
+    <!-- Painting -->
+    <article aria-labelledby="painting-title" class="border border-indigo-300 rounded-lg p-6 shadow hover:shadow-lg transition">
+     <h3 class="text-indigo-900 font-bold text-2xl mb-4 text-center" id="painting-title">
+      Painting
+     </h3>
+     <img alt="Painting artwork showing classical and modern techniques with vibrant colors and creative studio practices" class="w-full h-48 object-cover rounded mb-4" height="250" src="https://i.imghippo.com/files/yqC7592kgo.png" width="400"/>
+     <p class="text-gray-700 leading-relaxed">
+      Learn classical and modern painting techniques, creativity, studio
+          practices, and participate in exhibitions.
+     </p>
+    </article>
+   </div>
+  </section>
+  <!-- Facilities & Resources -->
+  <section aria-labelledby="facilities-title" class="bg-indigo-50 py-16 px-6 sm:px-8 scroll-mt-20" id="facilities">
+   <h2 class="text-indigo-900 font-bold text-3xl sm:text-4xl mb-12 text-center" id="facilities-title">
+    Facilities &amp; Resources
+   </h2>
+   <div class="max-w-5xl mx-auto grid gap-10 md:grid-cols-2">
+    <div>
+     <h3 class="text-indigo-900 font-semibold text-xl mb-3">
+      Studios &amp; Workshops
+     </h3>
+     <p class="text-gray-800 leading-relaxed mb-6">
+      Fully equipped studios and workshops designed for hands-on learning
+          and creative experimentation.
+     </p>
+     <ul class="list-disc list-inside text-gray-700 space-y-2">
+      <li>
+       Rota print machines, multicolor printers, cutters
+      </li>
+      <li>
+       Cameras, multimedia, and computer services
+      </li>
+      <li>
+       Exhibition spaces for student and faculty showcases
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="text-indigo-900 font-semibold text-xl mb-3">
+      Library &amp; Digital Resources
+     </h3>
+     <p class="text-gray-800 leading-relaxed">
+      Access to a rich collection of books, journals, and digital media to
+          support research and learning.
+     </p>
+     <img alt="Modern library interior with shelves of art and design books, digital workstations, and comfortable study areas in indigo and maroon themed environment" class="mt-6 rounded shadow-md w-full object-cover" height="350" src="https://i.imghippo.com/files/YExp2757ihI.jpeg" width="600"/>
+    </div>
+   </div>
+  </section>
+  <!-- Faculty Section -->
+  <section aria-labelledby="faculty-title" class="max-w-7xl mx-auto px-6 sm:px-8 py-16 scroll-mt-20" id="faculty">
+   <h2 class="text-indigo-900 font-bold text-3xl sm:text-4xl mb-12 text-center" id="faculty-title">
+    Our Faculty
+   </h2>
+   <div class="max-w-6xl mx-auto space-y-16">
+    <!-- Graphic Design Faculty -->
+    <section aria-labelledby="faculty-graphic-title">
+     <h3 class="text-indigo-900 font-semibold text-2xl mb-8 text-center" id="faculty-graphic-title">
+      Graphic Design
+     </h3>
+     <ul aria-label="Graphic Design Faculty Members" class="flex flex-wrap justify-center gap-10" role="list">
+      <li class="flex flex-col items-center w-40">
+       <img alt="Profile photo of Prof. Jhanzaib Afridi, Graphic Design faculty member, wearing glasses and smiling" class="rounded-full w-40 h-40 object-cover border-4 border-indigo-900 shadow-md" height="160" src="https://i.imghippo.com/files/orTq2545YZE.jpg" width="160"/>
+       <p class="mt-3 font-semibold text-indigo-900 text-center">
+        Mr. Jhanzaib Khan Afridi
+       </p>
+      </li>
+      <li class="flex flex-col items-center w-40">
+       <img alt="Profile photo of Prof. Waqas Tanvir Alvi, Graphic Design faculty member, with short hair and professional attire" class="rounded-full w-40 h-40 object-cover border-4 border-indigo-900 shadow-md" height="160" src="https://i.imghippo.com/files/oYyv8820YE.jpg" width="160"/>
+       <p class="mt-3 font-semibold text-indigo-900 text-center">
+        Mr. Waqas Tanvir Alvi
+       </p>
+      </li>
+      <li class="flex flex-col items-center w-40">
+       <img alt="Profile photo of Ms. Amina Khursheed, Graphic Design faculty member, smiling with long hair" class="rounded-full w-40 h-40 object-cover border-4 border-indigo-900 shadow-md" height="160" src="https://i.imghippo.com/files/oUQS7190io.jpg" width="160"/>
+       <p class="mt-3 font-semibold text-indigo-900 text-center">
+        Ms. Amina Khursheed
+       </p>
+      </li>
+     </ul>
+    </section>
+    <!-- Textile Design Faculty -->
+    <section aria-labelledby="faculty-textile-title">
+     <h3 class="text-indigo-900 font-semibold text-2xl mb-8 text-center" id="faculty-textile-title">
+      Textile Design
+     </h3>
+     <ul aria-label="Textile Design Faculty Members" class="flex flex-wrap justify-center gap-10" role="list">
+      <li class="flex flex-col items-center w-40">
+       <img alt="Profile photo of Prof. Amir, Textile Design faculty member, with short hair and glasses" class="rounded-full w-40 h-40 object-cover border-4 border-indigo-900 shadow-md" height="160" src="https://i.imghippo.com/files/UZv1833Qw.jpg" width="160"/>
+       <p class="mt-3 font-semibold text-indigo-900 text-center">
+        Mr. Amir Khurshid
+       </p>
+      </li>
+      <li class="flex flex-col items-center w-40">
+       <img alt="Profile photo of Ms. Farhat Kazmi, Textile Design faculty member, smiling with medium-length hair" class="rounded-full w-40 h-40 object-cover border-4 border-indigo-900 shadow-md" height="160" src="https://i.imghippo.com/files/HlVp1009YD.jpg" width="160"/>
+       <p class="mt-3 font-semibold text-indigo-900 text-center">
+        Ms. Farhat Kazmi
+       </p>
+      </li>
+      <li class="flex flex-col items-center w-40">
+       <img alt="Profile photo of Ms. Abida, Textile Design faculty member, with long hair and professional attire" class="rounded-full w-40 h-40 object-cover border-4 border-indigo-900 shadow-md" height="160" src="https://i.imghippo.com/files/Ofmg8934SuU.jpg" width="160"/>
+       <p class="mt-3 font-semibold text-indigo-900 text-center">
+        Ms. Abida Hanif
+       </p>
+      </li>
+     </ul>
+    </section>
+    <!-- Painting Faculty -->
+    <section aria-labelledby="faculty-painting-title">
+     <h3 class="text-indigo-900 font-semibold text-2xl mb-8 text-center" id="faculty-painting-title">
+      Painting
+     </h3>
+     <ul aria-label="Painting Faculty Members" class="flex flex-wrap justify-center gap-10" role="list">
+      <li class="flex flex-col items-center w-40">
+       <img alt="Profile photo of Ms. Amina Khursheed, Painting faculty member, smiling with long hair" class="rounded-full w-40 h-40 object-cover border-4 border-indigo-900 shadow-md" height="160" src="https://i.imghippo.com/files/MPlZ2646QY.jpg" width="160"/>
+       <p class="mt-3 font-semibold text-indigo-900 text-center">
+        Dr. Rukhsana khan Syed Muhammad
+       </p>
+      </li>
+      <li class="flex flex-col items-center w-40">
+       <img alt="Profile photo of Ms. Abida, Painting faculty member, with long hair and professional attire" class="rounded-full w-40 h-40 object-cover border-4 border-indigo-900 shadow-md" height="160" src="https://i.imghippo.com/files/Ofmg8934SuU.jpg" width="160"/>
+       <p class="mt-3 font-semibold text-indigo-900 text-center">
+        Ms. Abida
+       </p>
+      </li>
+     </ul>
+    </section>
+   </div>
+  </section>
+  <!-- Collaborations & Cultural Engagement -->
+  <section aria-labelledby="collaborations-title" class="bg-indigo-50 py-16 px-6 sm:px-8 scroll-mt-20" id="collaborations">
+   <h2 class="text-indigo-900 font-bold text-3xl sm:text-4xl mb-12 text-center" id="collaborations-title">
+    Collaborations &amp; Cultural Engagement
+   </h2>
+   <div class="max-w-5xl mx-auto space-y-10 text-gray-800 text-lg leading-relaxed">
+    <div>
+     <h3 class="text-indigo-900 font-semibold text-xl mb-3">
+      Government Collaborations
+     </h3>
+     <p>
+      We actively participate in exhibitions and awareness campaigns in
+          partnership with government bodies to promote art and culture.
+     </p>
+    </div>
+    <div>
+     <h3 class="text-indigo-900 font-semibold text-xl mb-3">
+      Student Internships
+     </h3>
+     <p>
+      Our students gain practical experience through internships at textile
+          mills, media houses, fashion industries, and galleries.
+     </p>
+    </div>
+    <div>
+     <h3 class="text-indigo-900 font-semibold text-xl mb-3">
+      Workshops
+     </h3>
+     <p>
+      We collaborate with TEVTA, ECO, and PNCA to conduct workshops that
+          enhance skills and industry knowledge.
+     </p>
+    </div>
+    <div>
+     <h3 class="text-indigo-900 font-semibold text-xl mb-3">
+      Annual Exhibitions &amp; Competitions
+     </h3>
+     <p>
+      Our department hosts annual exhibitions, degree shows, and
+          competitions to showcase talent and foster creative growth.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Student Portfolio/Gallery -->
+  <section aria-labelledby="portfolio-title" class="max-w-7xl mx-auto px-6 sm:px-8 py-16 scroll-mt-20" id="student-portfolio">
+   <h2 class="text-indigo-900 font-bold text-3xl sm:text-4xl mb-12 text-center" id="portfolio-title">
+    Student Portfolio Gallery
+   </h2>
+   <div class="flex justify-center mb-8 space-x-4">
+    <button aria-pressed="true" class="filter-btn bg-indigo-700 text-white px-4 py-2 rounded shadow focus:outline-none focus:ring-2 focus:ring-indigo-400" data-filter="all">
+     All
+    </button>
+    <button aria-pressed="false" class="filter-btn bg-indigo-100 text-indigo-900 px-4 py-2 rounded shadow focus:outline-none focus:ring-2 focus:ring-indigo-400" data-filter="graphic">
+     Graphic Design
+    </button>
+    <button aria-pressed="false" class="filter-btn bg-indigo-100 text-indigo-900 px-4 py-2 rounded shadow focus:outline-none focus:ring-2 focus:ring-indigo-400" data-filter="textile">
+     Textile Design
+    </button>
+    <button aria-pressed="false" class="filter-btn bg-indigo-100 text-indigo-900 px-4 py-2 rounded shadow focus:outline-none focus:ring-2 focus:ring-indigo-400" data-filter="painting">
+     Painting
+    </button>
+   </div>
+   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto" id="portfolio-gallery">
+    <!-- Graphic Design Items -->
+    <article aria-label="Student graphic design artwork titled 'Modern Typography'" class="portfolio-item graphic border border-indigo-300 rounded-lg overflow-hidden shadow hover:shadow-lg transition" tabindex="0">
+     <img alt="Student artwork showing modern typography design with bold indigo and maroon letters on white background" class="w-full h-48 object-cover" height="300" src="https://i.imghippo.com/files/xNyz6042Ak.jpeg" width="400"/>
+     <div class="p-4 bg-white">
+      <h4 class="text-indigo-900 font-semibold text-lg">
+       Suleman Khalid Abbasi
+      </h4>
+      <p class="text-gray-700 text-sm mt-1">
+       Photography (Graphic Design)
+      </p>
+     </div>
+    </article>
+    <article aria-label="Student graphic design artwork titled 'Brand Identity Concept'" class="portfolio-item graphic border border-indigo-300 rounded-lg overflow-hidden shadow hover:shadow-lg transition" tabindex="0">
+     <img alt="Student artwork showing brand identity concept with logo and color palette in indigo and maroon" class="w-full h-48 object-cover" height="300" src="https://i.imghippo.com/files/LqmD8689ZA.jpg" width="400"/>
+     <div class="p-4 bg-white">
+      <h4 class="text-indigo-900 font-semibold text-lg">
+       Haider Tahir Saraf
+      </h4>
+      <p class="text-gray-700 text-sm mt-1">
+       Photography (Graphic Design)
+      </p>
+     </div>
+    </article>
+    <article aria-label="Student graphic design artwork titled 'Digital Poster Design'" class="portfolio-item graphic border border-indigo-300 rounded-lg overflow-hidden shadow hover:shadow-lg transition" tabindex="0">
+     <img alt="Student artwork showing digital poster design with abstract shapes in indigo and maroon" class="w-full h-48 object-cover" height="300" src="https://i.imghippo.com/files/PV2727MY.jpg" width="400"/>
+     <div class="p-4 bg-white">
+      <h4 class="text-indigo-900 font-semibold text-lg">
+       Rayyat Hussain Shah
+      </h4>
+      <p class="text-gray-700 text-sm mt-1">
+       Photography (Graphic Design)
+      </p>
+     </div>
+    </article>
+    <!-- Textile Design Items -->
+    <article aria-label="Student textile design artwork titled 'Traditional Weave Pattern'" class="portfolio-item textile border border-indigo-300 rounded-lg overflow-hidden shadow hover:shadow-lg transition" tabindex="0">
+     <img alt="Student artwork showing traditional weave pattern in deep maroon and indigo colors with intricate details" class="w-full h-48 object-cover" height="300" src="https://i.imghippo.com/files/ELi1513Iok.jpg" width="400"/>
+     <div class="p-4 bg-white">
+      <h4 class="text-indigo-900 font-semibold text-lg">
+       Arooj Kazmi
+      </h4>
+      <p class="text-gray-700 text-sm mt-1">
+       Textile Design
+      </p>
+     </div>
+    </article>
+    <article aria-label="Student textile design artwork titled 'Surface Pattern Exploration'" class="portfolio-item textile border border-indigo-300 rounded-lg overflow-hidden shadow hover:shadow-lg transition" tabindex="0">
+     <img alt="Student artwork showing surface pattern exploration with floral motifs in maroon and indigo" class="w-full h-48 object-cover" height="300" src="https://i.imghippo.com/files/mJc1311t.jpg" width="400"/>
+     <div class="p-4 bg-white">
+      <h4 class="text-indigo-900 font-semibold text-lg">
+       Omer Afaq
+      </h4>
+      <p class="text-gray-700 text-sm mt-1">
+       Textile Design
+      </p>
+     </div>
+    </article>
+    <article aria-label="Student textile design artwork titled 'Fabric Printing Techniques'" class="portfolio-item textile border border-indigo-300 rounded-lg overflow-hidden shadow hover:shadow-lg transition" tabindex="0">
+     <img alt="Student artwork showing fabric printing techniques with abstract shapes in indigo and maroon" class="w-full h-48 object-cover" height="300" src="https://i.imghippo.com/files/Tywm8530EkM.jpg" width="400"/>
+     <div class="p-4 bg-white">
+      <h4 class="text-indigo-900 font-semibold text-lg">
+       Sadaf Qayyum
+      </h4>
+      <p class="text-gray-700 text-sm mt-1">
+       Textile Design
+      </p>
+     </div>
+    </article>
+    <!-- Painting Items -->
+    <article aria-label="Student painting artwork titled 'Classical Landscape'" class="portfolio-item painting border border-indigo-300 rounded-lg overflow-hidden shadow hover:shadow-lg transition" tabindex="0">
+     <img alt="Student painting artwork showing classical landscape with mountains and trees in warm indigo and maroon tones" class="w-full h-48 object-cover" height="300" src="https://i.imghippo.com/files/Fkj1474vRs.jpg" width="400"/>
+     <div class="p-4 bg-white">
+      <h4 class="text-indigo-900 font-semibold text-lg">
+       Wazir Attizaz Ali
+      </h4>
+      <p class="text-gray-700 text-sm mt-1">
+       Painting
+      </p>
+     </div>
+    </article>
+    <article aria-label="Student painting artwork titled 'Modern Abstract Composition'" class="portfolio-item painting border border-indigo-300 rounded-lg overflow-hidden shadow hover:shadow-lg transition" tabindex="0">
+     <img alt="Student painting artwork showing modern abstract composition with bold indigo and maroon shapes" class="w-full h-48 object-cover" height="300" src="https://i.imghippo.com/files/Qq7860n.jpg" width="400"/>
+     <div class="p-4 bg-white">
+      <h4 class="text-indigo-900 font-semibold text-lg">
+       Mahnoor Kamal Abbasi
+      </h4>
+      <p class="text-gray-700 text-sm mt-1">
+       Painting
+      </p>
+     </div>
+    </article>
+    <article aria-label="Student painting artwork titled 'Studio Practice Portrait'" class="portfolio-item painting border border-indigo-300 rounded-lg overflow-hidden shadow hover:shadow-lg transition" tabindex="0">
+     <img alt="Student painting artwork showing a portrait study from studio practice in indigo and maroon hues" class="w-full h-48 object-cover" height="300" src="https://i.imghippo.com/files/grk4029x.jpg" width="400"/>
+     <div class="p-4 bg-white">
+      <h4 class="text-indigo-900 font-semibold text-lg">
+       Mansoor Ahmed Abbasi
+      </h4>
+      <p class="text-gray-700 text-sm mt-1">
+       Painting
+      </p>
+     </div>
+    </article>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section aria-labelledby="contact-title" class="bg-indigo-900 text-indigo-100 py-16 px-6 sm:px-8 scroll-mt-20" id="contact">
+   <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center" id="contact-title">
+    Contact Us
+   </h2>
+   <div class="max-w-5xl mx-auto grid gap-12 md:grid-cols-2">
+    <address class="not-italic space-y-6 text-lg leading-relaxed">
+     <p>
+      <strong>
+       Department of Art &amp; Design
+      </strong>
+      <br/>
+      University of Azad Jammu &amp; Kashmir
+      <br/>
+      Muzaffarabad, Azad Kashmir, Pakistan
+     </p>
+     <p>
+      <i class="fas fa-envelope mr-2">
+      </i>
+      <a class="underline hover:text-indigo-300 focus:text-indigo-300" href="mailto:artdesign@ajku.edu.pk">
+       artdesign@ajku.edu.pk
+      </a>
+     </p>
+     <p>
+      <i class="fas fa-phone mr-2">
+      </i>
+      <a class="underline hover:text-indigo-300 focus:text-indigo-300" href="tel:+923129004476">
+       +92-312-9004476
+      </a>
+     </p>
+     <div aria-label="Social media links" class="flex space-x-6 mt-4">
+      <a aria-label="Facebook" class="hover:text-indigo-300 focus:text-indigo-300" href="#">
+       <i class="fab fa-facebook fa-2x">
+       </i>
+      </a>
+      <a aria-label="Instagram" class="hover:text-indigo-300 focus:text-indigo-300" href="#">
+       <i class="fab fa-instagram fa-2x">
+       </i>
+      </a>
+      <a aria-label="YouTube" class="hover:text-indigo-300 focus:text-indigo-300" href="#">
+       <i class="fab fa-youtube fa-2x">
+       </i>
+      </a>
+     </div>
+    </address>
+    <div>
+     <iframe allowfullscreen="" class="rounded shadow-lg" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.1234567890123!2d73.75000000000001!3d34.370000000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfb123456789ab%3A0x123456789abcdef!2sUniversity%20of%20Azad%20Jammu%20%26%20Kashmir!5e0!3m2!1sen!2s!4v1680000000000!5m2!1sen!2s" style="border:0;" title="Google Maps location of Department of Art &amp; Design, AJKU" width="100%">
+     </iframe>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-indigo-900 text-indigo-200 py-8 px-6 sm:px-8">
+   <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
+    <a class="flex items-center space-x-3" href="#home">
+     <img alt="Small University of Azad Jammu &amp; Kashmir logo in indigo and deep maroon" class="h-20 w-20 object-contain" height="40" src="https://i.imghippo.com/files/ZkHg1332o.jpg" width="40"/>
+     <span class="font-semibold text-lg">
+      Department of Art &amp; Design
+     </span>
+    </a>
+    <nav aria-label="Footer Quick Links">
+     <ul class="flex space-x-6 text-indigo-300 font-medium text-sm">
+      <li>
+       <a class="hover:text-indigo-100 focus:text-indigo-100 transition" href="#contact">
+        Admissions
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-indigo-100 focus:text-indigo-100 transition" download="AJKU_Art_Design_Prospectus.pdf" href="https://drive.google.com/file/d/11p1lmnvh8MQiTETVNrAfmgaX25Wrg-kF/view?usp=sharing">
+        Prospectus
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-indigo-100 focus:text-indigo-100 transition" href="#student-portfolio">
+        Student Gallery
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <p class="mt-6 text-center text-indigo-400 text-sm select-none">
+    © 2025 Department of Art &amp; Design, AJKU. All rights reserved.
+   </p>
+  </footer>
+  <script>
+   // Mobile menu toggle
+    const navToggle = document.getElementById('nav-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    navToggle.addEventListener('click', () => {
+      const expanded =
+        navToggle.getAttribute('aria-expanded') === 'true' ? 'false' : 'true';
+      navToggle.setAttribute('aria-expanded', expanded);
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Hero slideshow
+    const slides = [
+      document.getElementById('slide-1'),
+      document.getElementById('slide-2'),
+      document.getElementById('slide-3'),
+    ];
+    let currentSlide = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.opacity = i === index ? '1' : '0';
+      });
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }
+
+    setInterval(nextSlide, 7000);
+
+    // Initialize slideshow
+    showSlide(currentSlide);
+
+    // Portfolio filter
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    filterButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const filter = btn.getAttribute('data-filter');
+
+        filterButtons.forEach((b) => {
+          b.classList.remove('bg-indigo-700', 'text-white');
+          b.classList.add('bg-indigo-100', 'text-indigo-900');
+          b.setAttribute('aria-pressed', 'false');
+        });
+
+        btn.classList.add('bg-indigo-700', 'text-white');
+        btn.classList.remove('bg-indigo-100', 'text-indigo-900');
+        btn.setAttribute('aria-pressed', 'true');
+
+        portfolioItems.forEach((item) => {
+          if (filter === 'all') {
+            item.classList.remove('hidden');
+          } else {
+            if (item.classList.contains(filter)) {
+              item.classList.remove('hidden');
+            } else {
+              item.classList.add('hidden');
+            }
+          }
+        });
+      });
+    });
+  </script>
+ </body>
+</html>
